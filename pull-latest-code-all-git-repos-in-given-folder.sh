@@ -20,9 +20,9 @@ do
       cd "$REPOSITORIES/$REPO"
       git status
       echo "Fetching"
-      git fetch -all
+      git fetch --all
       echo "Pulling"
-      git pull -all
+      git pull --all
 #    else
 #      echo "Skipping because it doesn't look like it has a .git folder."
     fi
